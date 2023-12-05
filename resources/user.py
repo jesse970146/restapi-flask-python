@@ -6,7 +6,7 @@ from flask_jwt_extended import create_access_token,create_refresh_token,get_jwt_
 # from sqlalchemy.exc import SQLAlchemyError
 
 from db import db
-from blocklist import BlOCKLIST
+
 from models import UserModel , BlockListModel
 from schemas import UserSchema, BlockListSchema
 

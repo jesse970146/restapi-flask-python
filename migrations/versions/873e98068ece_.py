@@ -61,6 +61,8 @@ def upgrade():
     sa.ForeignKeyConstraint(['tag_id'], ['tags.id'], ),
     sa.PrimaryKeyConstraint('id')
     )
+    
+    
     # ### end Alembic commands ###
 
 
